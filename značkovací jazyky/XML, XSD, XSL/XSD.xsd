@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:element name="seznamapps">
+    <xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="komunikacniapp"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+</xs:element>
+
+<xs:element name="komunikacniapp">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="ID" type="xs:integer"/>
+            <xs:element name="nazev" type="xs:string"/>
+            <xs:element ref="vydavatel"/>           
+            <xs:element name="pocet_zamestnancu" type="xs:integer"/>     
+            <xs:element ref="vyuziti_v_CR"/>  
+            <xs:element ref="vyuziti_v_zahranici"/> 
+            <xs:element ref="komercni_vyuziti"/>
+            <xs:element ref="bezne_vyuziti"/> 
+        </xs:sequence>
+            <xs:attribute name="udrzovany" type="xs:boolean"/>
+            <xs:attribute name="vchodu" type="xs:boolean"/>                
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="vydavatel">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="developer" type="xs:string"/>
+            <xs:element name="rok_vzniku" type="xs:date"/>
+            <xs:element ref="CEO"/>
+        </xs:sequence>
+            <xs:attribute name="networth" use="optional" type="xs:string"  />
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="CEO">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="firstname"/>
+            <xs:element name="surname"/>
+        </xs:sequence>  
+            <xs:attribute name="pohlavi" use="optional" type="gender"  />                          
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="vyuziti_v_CR">
+    <xs:complexType>
+        <xs:sequence>
+          <xs:group ref="vyuziti"/>
+        </xs:sequence>
+        <xs:attribute name="pomer_vyuziti" use="required" type="xs:string"/>           
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="vyuziti_v_zahranici">
+    <xs:complexType>
+        <xs:sequence>
+          <xs:group ref="vyuziti"/>
+        </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="komercni_vyuziti">
+    <xs:complexType>
+        <xs:sequence>
+          <xs:group ref="vyuziti"/>
+        </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="bezne_vyuziti">
+    <xs:complexType>
+        <xs:sequence>
+          <xs:group ref="vyuziti"/>
+        </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+<xs:group name="vyuziti">
+        <xs:sequence>
+            <xs:element name="rating" type="hodnoty"/>
+        </xs:sequence>
+</xs:group>
+
+<xs:simpleType name="hodnoty">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="malé" />
+        <xs:enumeration value="střední" />
+        <xs:enumeration value="velké" />
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="gender">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="muž"/>
+        <xs:enumeration value="žena"/>
+        <xs:enumeration value="ještěr"/>
+        <xs:enumeration value="jiné"/>       
+    </xs:restriction>
+</xs:simpleType>
+
+
+</xs:schema>

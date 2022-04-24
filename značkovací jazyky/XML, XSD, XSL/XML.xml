@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL.xsl" ?>
+
+<seznamapps  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSD.xsd"> 
+
+<komunikacniapp udrzovany="true" vchodu="true">
+    <ID>1</ID>
+    <nazev>Facebook</nazev>
+    <vydavatel networth="500mld$">
+        <developer>Meta Platforms</developer>
+        <rok_vzniku>2004-04-02</rok_vzniku>
+            <CEO pohlavi="ještěr">
+                <firstname>Mark</firstname>
+                <surname>Zuckerberg</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>35587</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="50%">
+        <rating>malé</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>velké</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>střední</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>velké</rating>
+    </bezne_vyuziti>
+
+</komunikacniapp>
+
+    <komunikacniapp udrzovany="true" vchodu="true">
+        <ID>999</ID>
+        <nazev>Instagram</nazev>
+        <vydavatel networth="500mld$">
+            <developer>Meta Platforms</developer>
+            <rok_vzniku>2010-06-10</rok_vzniku>
+                <CEO pohlavi="ještěr">
+                    <firstname>Mark</firstname>
+                    <surname>Zuckerberg</surname>
+                </CEO>
+        </vydavatel>
+        <pocet_zamestnancu>35587</pocet_zamestnancu>
+    
+        <vyuziti_v_CR pomer_vyuziti="30%">
+            <rating>střední</rating>
+        </vyuziti_v_CR>   
+    
+        <vyuziti_v_zahranici>
+            <rating>velké</rating>
+        </vyuziti_v_zahranici>  
+    
+        <komercni_vyuziti>
+            <rating>velké</rating>
+        </komercni_vyuziti>
+    
+        <bezne_vyuziti>
+            <rating>velké</rating>
+        </bezne_vyuziti>
+</komunikacniapp>
+
+<komunikacniapp udrzovany="true" vchodu="true">
+    <ID>5</ID>
+    <nazev>Discord</nazev>
+    <vydavatel networth="500mld$">
+        <developer>Discord Inc.</developer>
+        <rok_vzniku>2015-06-03</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Jason</firstname>
+                <surname>Citron</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>750</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>malé</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>střední</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>malé</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>velké</rating>
+    </bezne_vyuziti>
+</komunikacniapp>
+
+<komunikacniapp udrzovany="true" vchodu="true">
+    <ID>20</ID>
+    <nazev>Skype</nazev>
+    <vydavatel networth="1trilion$">
+        <developer>Microsoft</developer>
+        <rok_vzniku>2003-10-26</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Satya</firstname>
+                <surname>Nadella</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>182000</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>malé</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>malé</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>malé</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>malé</rating>
+    </bezne_vyuziti>  
+</komunikacniapp>
+
+
+<komunikacniapp udrzovany="false" vchodu="false">
+    <ID>60</ID>
+    <nazev>Friendster</nazev>
+    <vydavatel networth="0$">
+        <developer>Mol global</developer>
+        <rok_vzniku>2002-01-01</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Ganesh</firstname>
+                <surname>Bangah</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>0</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>malé</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>malé</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>malé</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>malé</rating>
+    </bezne_vyuziti>
+</komunikacniapp>
+
+
+<komunikacniapp udrzovany="false" vchodu="true">
+    <ID>69</ID>
+    <nazev>Teamspeak</nazev>
+    <vydavatel networth="1100$">
+        <developer>TeamSpeak Systems GmbH</developer>
+        <rok_vzniku>2001-08-01</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Ralf</firstname>
+                <surname>Ludwig</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>6</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>velké</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>střední</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>malé</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>velké</rating>
+    </bezne_vyuziti>
+</komunikacniapp>
+
+<komunikacniapp udrzovany="true" vchodu="true">
+    <ID>420</ID>
+    <nazev>Twitter</nazev>
+    <vydavatel networth="200mill$">
+        <developer>TeamSpeak Systems GmbH</developer>
+        <rok_vzniku>2006-03-26</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Jack</firstname>
+                <surname>Dorsey</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>4900</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>malé</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>velké</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>malé</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>malé</rating>
+    </bezne_vyuziti>
+</komunikacniapp>
+
+<komunikacniapp udrzovany="false" vchodu="false">
+    <ID>640</ID>
+    <nazev>ICQ</nazev>
+    <vydavatel networth="0$">
+        <developer>Mirabilis</developer>
+        <rok_vzniku>1996-05-04</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Yair </firstname>
+                <surname>Goldfinger</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>0</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>velké</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>malé</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>malé</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>střední</rating>
+    </bezne_vyuziti>
+</komunikacniapp>
+
+
+<komunikacniapp udrzovany="true" vchodu="true">
+    <ID>19</ID>
+    <nazev>Microsoft teams</nazev>
+    <vydavatel networth="1trilion$">
+        <developer>Microsoft</developer>
+        <rok_vzniku>2003-10-26</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Satya</firstname>
+                <surname>Nadella</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>182000</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>střední</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>střední</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>velké</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>malé</rating>
+    </bezne_vyuziti>
+</komunikacniapp>
+
+<komunikacniapp udrzovany="true" vchodu="true">
+    <ID>700</ID>
+    <nazev>ZOOM</nazev>
+    <vydavatel networth="12mil$">
+        <developer>Zoom Video Communications</developer>
+        <rok_vzniku>2011-05-21</rok_vzniku>
+            <CEO pohlavi="muž">
+                <firstname>Eric </firstname>
+                <surname>Yuan</surname>
+            </CEO>
+    </vydavatel>
+    <pocet_zamestnancu>0</pocet_zamestnancu>
+
+    <vyuziti_v_CR pomer_vyuziti="nezname">
+        <rating>střední</rating>
+    </vyuziti_v_CR>   
+
+    <vyuziti_v_zahranici>
+        <rating>velké</rating>
+    </vyuziti_v_zahranici>  
+
+    <komercni_vyuziti>
+        <rating>velké</rating>
+    </komercni_vyuziti>
+
+    <bezne_vyuziti>
+        <rating>malé</rating>
+    </bezne_vyuziti>
+</komunikacniapp>
+
+
+</seznamapps>

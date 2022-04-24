@@ -1,0 +1,81 @@
+root {
+    font-family: 'Arial';
+    font-size: 18px;   
+}
+
+body {
+    background-color: rgb(31, 144, 155);   
+}
+
+.navigace {
+	justify-content: left;    
+    padding: 2em;       
+    position:sticky;
+    top: 13em;   
+    color:black;
+}
+
+.navigace a {
+    text-decoration: none; 	  
+    color: black(0, 0, 0, 0);
+    font-size: 1.5em;   
+    font-weight: bold;
+    display: block;  
+    width: 180px;
+    color:black;
+}
+
+a:hover {
+    color:red;
+}
+
+.dilcicile {
+    color:white;
+    font-size: 16px;
+    font-style:italic;
+}
+
+h1{
+    text-align: center;
+    position: sticky;
+    font-size: 2.5em;
+    top: 1em;
+    margin: -2em; 
+
+    background: rgb(31, 144, 155);
+}
+
+header  {
+    text-align: center;
+    font-size:x-large;
+    color:black;
+    font-weight: bold;
+}
+
+.text{
+    margin-left: 12em;
+    margin-right:12em;
+    margin-top: 5em;
+    padding:2em;
+    gap: 2em;
+    background-color: grey;
+    color:white;
+    width: 60em;
+    text-align: justify;
+    width:auto;   
+}
+
+.klicslova {
+    text-align: center;
+    color:black;
+    font-style:oblique;
+}
+
+.konec{
+    text-align:end;
+}
+
+
+
+
+
